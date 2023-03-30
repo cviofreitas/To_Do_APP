@@ -1,0 +1,99 @@
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task {
+    margin-top: 5px;
+    color: rgb(25, 41, 64);
+    background-color: azure;
+    border-radius: 15px;
+    display: flex;
+    width: 95%;
+    min-height: 50px;
+    height: fit-conten;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.458);
+    transition: all ease-out 1s;
+}
+
+
+
+.task.checked {
+    background: linear-gradient(90deg, rgba(240, 255, 255, 0.26) 40%, rgb(236, 70, 70));
+
+    transition: all ease-out 1s;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+button>img {
+    -webkit-filter: drop-shadow(1px 1px 5px #0d326075);
+    filter: drop-shadow(1px 1px 5px #0d326075);
+}
+
+.checkbox {
+    position: relative;
+    left: 10px;
+    font-size: 2rem;
+    background: none;
+    border: 1px solid rgb(25, 41, 64);
+    height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkbox.checked {
+    background-color: rgb(236, 70, 95);
+    border: 1px solid rgb(236, 70, 95);
+}
+
+
+.inputText {
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    left: 18px;
+    background: none;
+    border: none;
+    color: rgb(25, 41, 64);
+    width: 70%;
+    margin: 0;
+}
+
+.inputText.focused {
+    position: relative;
+    line-height: 20px;
+    outline: none;
+    background: rgba(68, 68, 68, 0.105);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submitChange {
+    background: none;
+    border: none;
+    position: relative;
+    right: -35px;
+    /* top: 30px; */
+    margin: 0;
+
+}
+
+.formContainer {
+    display: flex;
+}

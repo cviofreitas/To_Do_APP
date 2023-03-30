@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .2px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(237, 237, 237)
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(20, 38, 81);
+}
+
+.h1Logo {
+  height: 40px;
+  margin: 10px;
+}

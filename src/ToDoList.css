@@ -1,0 +1,35 @@
+.MainContainer {
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ToDoContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ToDoList {
+    min-height: 500px;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(25, 41, 64), rgb(47, 80, 104));
+    box-shadow: 3px 3px 20px rgba(128, 128, 128, 0.557);
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .MainContainer {
+        width: 90vw;
+    }
+}

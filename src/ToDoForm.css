@@ -1,0 +1,96 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.editContainer {
+    display: flex;
+    /* padding-left: 10px; */
+    width: 100%;
+}
+
+.ToDoForm {
+    margin-bottom: 10px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(25, 41, 64), rgb(68, 107, 134));
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+
+.ToDoForm input {
+    width: 70%;
+}
+
+.submitButton {
+    position: relative;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 8%;
+    background: linear-gradient(90deg, rgba(255, 74, 101, 0.706), rgba(222, 44, 91, 0.725));
+    border: none;
+    outline: none;
+    color: white;
+    max-height: 35px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.346);
+}
+
+.submitButton:hover {
+    background: linear-gradient(90deg, rgb(236, 70, 95), rgb(222, 44, 91));
+}
+
+b {
+    position: relative;
+    left: -10px;
+    font-size: 1.7rem;
+    text-emphasis: none;
+    margin: 5px;
+}
+
+.form {
+    position: relative;
+    left: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.347);
+    border: none;
+    outline: none;
+    height: 35px;
+    max-height: 35px;
+    border-radius: 15px;
+    width: 380px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.form:focus {
+    background-color: azure;
+    color: rgb(25, 41, 64);
+}
+
+.form::placeholder {
+    color: rgba(240, 255, 255, 0.441);
+}
+
+.required {
+    background-color: azure;
+    color: white;
+    box-shadow: inset 0px 0px 5px rgb(251, 78, 59);
+}
+
+.required::placeholder {
+    color: salmon;
+}
